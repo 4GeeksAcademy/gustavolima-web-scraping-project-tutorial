@@ -48,3 +48,30 @@ con.commit()
 
 for row in cur.execute('SELECT * FROM Tesla'):
     print(row)
+
+
+#Plot a Lineplot
+
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Sort the Data 
+tesla_revenue['Revenue'] = tesla_revenue['Revenue'].astype(int)
+
+# Create the plot using Seaborn
+plt.figure(figsize=(12, 8))
+sns.lineplot(data=tesla_revenue, x='Date', y='Revenue')
+
+# Set the plot title and labels
+plt.title('Tesla Revenue Over Time')
+plt.xlabel('Date')
+plt.ylabel('Revenue')
+
+# Reverse the order of the x-axis
+plt.gca().invert_xaxis()
+
+# Rotate x-axis labels for better readability
+plt.xticks(rotation=45)
+
+# Display the plot
+plt.show()
