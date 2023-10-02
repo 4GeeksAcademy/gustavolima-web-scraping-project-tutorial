@@ -1,26 +1,11 @@
 <!-- hide -->
-# Web Scraping with BeautifulSoup and Python Tutorial
+# Web Scraping and SQL with Python
 <!-- endhide -->
 
-- Create a SQL database using the MariaDB endine on top Heroku.com.
-- Undertand and get used to the most basic profesional python project structure with PIP and `.env` file.
-- Use SQLAlchemy the most popular library in the industry for connecting to SQL databases.
-- Use Pandas to display SQL Tables as dataframes.
+One way of getting Data to work on, is Web Scraping. This project was focused on scraping a website to get data, analyze it and store it in a SQL database
 
-Inside this repository, you will find a file called `./INSTRUCTIONS.md` with the steps needed to complete it.
+## 📒  Key Takes
 
-## 🌱  How to start this project
+Web Scraping is an essential tool to get data when the data is not fully availble to you. Using Pyhton and Beautiful Soup I was able to scrap information from a website to further analyze it. The key take is that the approach for web scraping varies a lot, plus you need to have in mind that Scraping has to be done in proper ways and legally to avoid trouble. Many platforms have scraping protections or strict rules about it, so always inform yourself before. 
 
-The easiest way to start working on this project is by using Gitpod:
-
-1. Make a fork of [this repository](https://github.com/4geeksacademy/web-scraping-project-tutorial) into your github account.
-2. Open the recently created fork on Gitpod by using the [Gitpod button extension](https://www.gitpod.io/docs/browser-extension/).
-3. Once Gitpod VSCode has finished opening you can go ahead and open the `problems.ipynb` file and start solving each exercise inside the notebook.
-
-## 🚛 How to deliver this project
-
-Once you are finished solving the exercises make sure to commit your changes, push to your repository fork and go to 4Geeks.com to upload the repository link.
-
-## Solutions
-
-We also incorporated the solution samples on `./src/solution.md` that we strongly suggest you only use if you are stuck for more than 30min or if you have already finished and want to compare it with your approach.
+Backing up the data to a SQL Database 🗄️ is always a good practice plus makes it easy to query whenever you need. 
